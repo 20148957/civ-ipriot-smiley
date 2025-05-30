@@ -202,7 +202,7 @@ Compare and contrast the classes Happy and Sad.
    > Smiley
    >
 3. Discuss the hiding of the SenseHAT in terms of encapsulation (100-200 Words)
-   > Your answer here
+   > Some of the SenseHat Classes's components are private, ensuring that these values can only be used through set methods within the class. `self._low_light` can only be gotten through the `low_light` function. Encapsulation can be helpful when trying to avoid accidental changes to these privates attributes' values.
    >
 
 ### 2.7. Sad Smileys Can’t Blink (Or Can They?)
@@ -251,7 +251,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
 
 - Observe and document the Sad smiley as it blinks its eyes. Describe any adjustments or issues encountered during implementation.
 
-  > Your answer here
+  > No issues.
 
   ### 2.8. If It Walks Like a Duck…
 
@@ -275,7 +275,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
 
   5. **Concept and Language Specificity:** In relation to your response to question (4), what is this capability known as, and why is it feasible in Python and many other dynamically typed languages but not in most statically typed programming languages like C#? **Clue** This concept is hinted at in the title of this section.
 
-  > Your answer here
+  > Duck typing. It works in dynamically typed languages because variable types aren't required to be declared, and type checking is done at runtime.
 
   ***
 
